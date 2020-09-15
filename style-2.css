@@ -1,0 +1,90 @@
+body {
+  background-color: #277ecd;
+  background-image: linear-gradient(315deg, #289bfc 0%, #287bfc 74%);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5.8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 1000px rgba(0,0,0,0.5); 
+} 
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: white; 
+  border-radius: 4px;
+}
+
+header {
+  padding: 10px 30px 10px 30px;
+  background: #222222;
+  color: white;
+  display: flex;
+  justify-content: flex;
+  align-items: center;
+  margin: auto;
+}
+header h1 {
+  padding-top: 5px;
+}
+
+.headerl{
+  height: 65px;
+  float: left;
+  display: flex;
+  border-radius: 50%;
+  margin-right: auto;
+}
+
+#botname{
+  font-family: Calibri;
+  font-size: 40px;
+  padding-right: 750px;
+}
+
+
+header a{
+    text-decoration: none;
+    cursor:pointer;
+    border-radius: 15px;
+    font-size: 15px;
+    background-color: #1f8cec;
+    border: none;
+    color: whitesmoke;
+    text-align: center;
+    display: inline-block;
+    padding: 14px 26px;
+    font-family: Verdana;
+    transition: 3s;
+    overflow: hidden;
+    margin-right:6px;
+    border-radius: 66px 12px 66px 12px;
+}
+
+h1{
+  color: white;
+  text-decoration: styling;
+  text-align: center;
+  font-family: verdana;
+  font-size: 60px
+}
+
+
+
+hr{
+ background-color:white;
+ margin: auto;
+}
+
+.hr-header {
+  height: 2px;
+}
+
